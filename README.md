@@ -1,6 +1,6 @@
 # LXW AI Studio
 
-这是一个可直接部署到 GitHub Pages 的个人技术服务网站静态项目。
+这是一个可以直接部署到 GitHub Pages 的个人技术服务静态网站。
 
 ## 项目文件
 
@@ -15,41 +15,26 @@
 
 ## 部署到 GitHub Pages
 
-### 方法一：通过 GitHub 网页直接部署
+当前仓库地址：
 
-1. 在 GitHub 创建一个新的仓库，例如：`lxw-ai-studio`
-2. 把以下文件上传到仓库根目录：
-   - `index.html`
-   - `style.css`
-   - `script.js`
-   - `README.md`
-3. 进入仓库页面，点击 `Settings`
-4. 在左侧找到 `Pages`
-5. 在 `Build and deployment` 区域中：
-   - `Source` 选择 `Deploy from a branch`
-   - `Branch` 选择 `main`
-   - 文件夹选择 `/ (root)`
+`https://github.com/wsllsw1/lsw`
+
+推荐设置：
+
+1. 进入仓库的 `Settings`
+2. 打开左侧 `Pages`
+3. 在 `Build and deployment` 中选择 `Deploy from a branch`
+4. `Branch` 选择 `main`
+5. 文件夹选择 `/ (root)`
 6. 点击 `Save`
-7. 等待几十秒到几分钟，GitHub Pages 会生成访问地址
 
-### 方法二：使用 Git 命令部署
+等待几十秒到几分钟后，网站地址应为：
 
-如果你本机已安装 Git，可在项目所在目录执行：
-
-```bash
-git init
-git add .
-git commit -m "init LXW AI Studio website"
-git branch -M main
-git remote add origin https://github.com/你的用户名/lxw-ai-studio.git
-git push -u origin main
-```
-
-然后到 GitHub 仓库的 `Settings -> Pages` 中开启 Pages。
+`https://wsllsw1.github.io/lsw/`
 
 ## 自定义内容建议
 
-部署前你可以按需替换以下占位信息：
+部署前可以按需替换以下占位信息：
 
 - Telegram：`@yourname`
 - Email：`your@email.com`
